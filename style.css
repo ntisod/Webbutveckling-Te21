@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Använd måsvingar {} alt gr + 7 */
+
+body{
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: cyan;
+}
+
+img{
+  width: 30%;
+}
+
+/* Menyn */
+/*nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #990099;
+  margin: auto;
+}
+nav li{
+  border-bottom: 1px solid #990099;
+  text-align: center;
+}
+nav li:last-child{
+  border-bottom: none;
+}
+nav li a{
+  display:block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #990099;
+  color: #ffffff;
+}*/
+
+/* Horisontell meny */
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: #f1f1f1;
+}
+nav li{
+  float: left;
+}
+nav li a{
+  padding: 8px 8px;
+  border: 1px solid #990099;
+  color: #000000;
+  text-decoration: none;
+}
+nav li a:hover{
+  background-color: #990099;
+  color: #ffffff;
+}
